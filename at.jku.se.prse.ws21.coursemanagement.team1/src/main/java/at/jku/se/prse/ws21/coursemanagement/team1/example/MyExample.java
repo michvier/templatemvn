@@ -9,7 +9,7 @@ public class MyExample {
 	public List<String> allItems = new ArrayList<>();
 	
 	/**
-	 * Add a new item to the list only if the item is not in the list.
+	 * Add a new item to the list, only if the item is not in the list already.
 	 * @param itemName The item to be added.
 	 * @throws IllegalArgumentException if the item is already in the list.
 	 */
