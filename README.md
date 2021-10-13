@@ -21,7 +21,9 @@ The pom file defines:
 - properties relevant for build configuration (e.g. the Java Version)
 - dependencies
 
+_Project Pom File with project details, properties, and dependencies:_
 
+![image](https://user-images.githubusercontent.com/24531486/137179518-e62b2b5e-8bea-466d-8eae-a4990831d3e3.png)
 
 
 
@@ -29,5 +31,11 @@ The pom file defines:
 
 Each project has its own pom file. You can configure Maven to build one project or multiple projects. 
 The  pom file in the root of the directory lists the individual projects in a modules section that should built
+
+_Root Pom File with projects (modules) to build:_
+
+![image](https://user-images.githubusercontent.com/24531486/137179883-dfd06306-a43d-4cdf-b3ac-d0e7c5ac26aa.png)
+
+
 
 Maven Tutorial: [https://www.vogella.com/tutorials/ApacheMaven/article.html](https://www.vogella.com/tutorials/ApacheMaven/article.html)
